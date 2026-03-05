@@ -60,4 +60,4 @@ The program generates an HTML file showing an interactive map of India with mark
 Prasanna
 ## Output
 
-![India Map Output](india_map_output.png)
+![India Map Output](india_map.png)
