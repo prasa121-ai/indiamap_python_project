@@ -58,4 +58,6 @@ The program generates an HTML file showing an interactive map of India with mark
 ## Author
 
 Prasanna
+## Output
 
+![India Map Output](india_map_output.png)
