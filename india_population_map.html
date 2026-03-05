@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d8b33ffc84cd0f0b9c00708c9f4f40a0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d8b33ffc84cd0f0b9c00708c9f4f40a0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d8b33ffc84cd0f0b9c00708c9f4f40a0 = L.map(
+                "map_d8b33ffc84cd0f0b9c00708c9f4f40a0",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_45f62af0a9a717cb9587ae475c8f8000 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_45f62af0a9a717cb9587ae475c8f8000.addTo(map_d8b33ffc84cd0f0b9c00708c9f4f40a0);
+        
+    
+            var marker_f8c74c6404c80a2e68b6156ecd07235b = L.marker(
+                [28.6139, 77.209],
+                {
+}
+            ).addTo(map_d8b33ffc84cd0f0b9c00708c9f4f40a0);
+        
+    
+        var popup_5d0bf43fcfac48e13f63e0791a91cd8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0810c8a18c01be42e06be0fe6fe506da = $(`<div id="html_0810c8a18c01be42e06be0fe6fe506da" style="width: 100.0%; height: 100.0%;">Delhi Population: 19,000,000</div>`)[0];
+                popup_5d0bf43fcfac48e13f63e0791a91cd8e.setContent(html_0810c8a18c01be42e06be0fe6fe506da);
+            
+        
+
+        marker_f8c74c6404c80a2e68b6156ecd07235b.bindPopup(popup_5d0bf43fcfac48e13f63e0791a91cd8e)
+        ;
+
+        
+    
+    
+            var marker_f3792e2b8100cd664c13ba2d8a16c0b3 = L.marker(
+                [19.076, 72.8777],
+                {
+}
+            ).addTo(map_d8b33ffc84cd0f0b9c00708c9f4f40a0);
+        
+    
+        var popup_3ea5856e4cf7533b75c90adca43d6ae7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96f9813bb0ca1e3b314a61b33bd3e8fd = $(`<div id="html_96f9813bb0ca1e3b314a61b33bd3e8fd" style="width: 100.0%; height: 100.0%;">Mumbai Population: 20,000,000</div>`)[0];
+                popup_3ea5856e4cf7533b75c90adca43d6ae7.setContent(html_96f9813bb0ca1e3b314a61b33bd3e8fd);
+            
+        
+
+        marker_f3792e2b8100cd664c13ba2d8a16c0b3.bindPopup(popup_3ea5856e4cf7533b75c90adca43d6ae7)
+        ;
+
+        
+    
+    
+            var marker_7ce67cdd36dae9d507198ae4a0bfaf87 = L.marker(
+                [13.0827, 80.2707],
+                {
+}
+            ).addTo(map_d8b33ffc84cd0f0b9c00708c9f4f40a0);
+        
+    
+        var popup_97a2b61dd22cf206fd7963459442decf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d61eeebbca06e8ed382b445a774fd86e = $(`<div id="html_d61eeebbca06e8ed382b445a774fd86e" style="width: 100.0%; height: 100.0%;">Chennai Population: 11,000,000</div>`)[0];
+                popup_97a2b61dd22cf206fd7963459442decf.setContent(html_d61eeebbca06e8ed382b445a774fd86e);
+            
+        
+
+        marker_7ce67cdd36dae9d507198ae4a0bfaf87.bindPopup(popup_97a2b61dd22cf206fd7963459442decf)
+        ;
+
+        
+    
+    
+            var marker_3a84639fccc8bbfb14df345ab21eb553 = L.marker(
+                [15.9129, 79.74],
+                {
+}
+            ).addTo(map_d8b33ffc84cd0f0b9c00708c9f4f40a0);
+        
+    
+        var popup_aaeec7a48c7ec783bf7eaedf1e7fbb7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca240d62e896acd8e6acdc3637d60b76 = $(`<div id="html_ca240d62e896acd8e6acdc3637d60b76" style="width: 100.0%; height: 100.0%;">Andhra Pradesh Population: 53,903,393</div>`)[0];
+                popup_aaeec7a48c7ec783bf7eaedf1e7fbb7a.setContent(html_ca240d62e896acd8e6acdc3637d60b76);
+            
+        
+
+        marker_3a84639fccc8bbfb14df345ab21eb553.bindPopup(popup_aaeec7a48c7ec783bf7eaedf1e7fbb7a)
+        ;
+
+        
+    
+</script>
+</html>
